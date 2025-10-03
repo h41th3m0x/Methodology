@@ -8,18 +8,7 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt install -y build-essential git curl wget unzip jq python3 python3-pip snapd
 
 # === Install Go ===
-if ! command -v go &>/dev/null; then
-    echo -e "\n[*] Installing Go..."
-    GO_VERSION="1.23.2"
-    wget "https://go.dev/dl/go${GO_VERSION}.linux-amd64.tar.gz"
-    sudo rm -rf /usr/local/go
-    sudo tar -C /usr/local -xzf "go${GO_VERSION}.linux-amd64.tar.gz"
-    rm "go${GO_VERSION}.linux-amd64.tar.gz"
-    
-    echo 'export GOPATH=$HOME/go' >> ~/.bashrc
-    echo 'export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin' >> ~/.bashrc
-    source ~/.bashrc
-fi
+sudo apt install golang
 
 # Load env
 export GOPATH=$HOME/go
