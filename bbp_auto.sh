@@ -1,77 +1,88 @@
 #!/bin/bash
 set -e
 
-echo "[*] Updating system..."
-sudo apt update -y && sudo apt upgrade -y
+echo -e "\n🚀 Starting Full Bug Bounty Setup..."
 
-echo "[*] Installing dependencies..."
-sudo apt install -y build-essential git curl wget unzip jq python3 python3-pip
+# === System Update ===
+sudo apt update -y && sudo apt upgrade -y
+sudo apt install -y build-essential git curl wget unzip jq python3 python3-pip snapd
 
 # === Install Go ===
-if ! command -v go &> /dev/null; then
-    echo "[*] Installing Go..."
+if ! command -v go &>/dev/null; then
+    echo -e "\n[*] Installing Go..."
     GO_VERSION="1.23.2"
     wget "https://go.dev/dl/go${GO_VERSION}.linux-amd64.tar.gz"
     sudo rm -rf /usr/local/go
     sudo tar -C /usr/local -xzf "go${GO_VERSION}.linux-amd64.tar.gz"
     rm "go${GO_VERSION}.linux-amd64.tar.gz"
     
-    echo "export PATH=\$PATH:/usr/local/go/bin" >> ~/.bashrc
-    echo "export GOPATH=\$HOME/go" >> ~/.bashrc
-    echo "export PATH=\$PATH:\$GOPATH/bin" >> ~/.bashrc
+    echo 'export GOPATH=$HOME/go' >> ~/.bashrc
+    echo 'export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin' >> ~/.bashrc
     source ~/.bashrc
-else
-    echo "[*] Go already installed!"
 fi
 
-# Reload PATH
-export PATH=$PATH:/usr/local/go/bin
+# Load env
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
-# === Install Go-based tools ===
-echo "[*] Installing waybackurls..."
+# === Install Go-based Tools ===
+echo -e "\n[*] Installing Go tools..."
 go install github.com/tomnomnom/waybackurls@latest
-
-echo "[*] Installing gau..."
 go install github.com/lc/gau/v2/cmd/gau@latest
-
-echo "[*] Installing gf..."
 go install github.com/tomnomnom/gf@latest
-
-echo "[*] Installing httpx..."
 go install github.com/projectdiscovery/httpx/cmd/httpx@latest
-
-echo "[*] Installing subfinder..."
 go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-
-echo "[*] Installing assetfinder..."
 go install github.com/tomnomnom/assetfinder@latest
-
-echo "[*] Installing nuclei..."
 go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+go install github.com/projectdiscovery/katana/cmd/katana@latest
+go install github.com/tomnomnom/qsreplace@latest
+go install github.com/s0md3v/uro@latest
+go install github.com/tomnomnom/anew@latest
+go install github.com/tomnomnom/hacks/kxss@latest
+go install github.com/hahwul/dalfox/v2@latest
 
-echo "[*] Installing arjun (Python)..."
+# === Install Python Tools ===
+echo -e "\n[*] Installing Python tools..."
+pip install --upgrade pip
 pip install arjun
 
-# === Install SecLists ===
-echo "[*] Cloning SecLists wordlists..."
-sudo git clone https://github.com/danielmiessler/SecLists.git /opt/SecLists || echo "[*] SecLists already exists!"
+# === Install Amass ===
+echo -e "\n[*] Installing amass..."
+sudo snap install amass
 
-# === Add gf patterns ===
-echo "[*] Setting up gf patterns..."
+# === Install Wordlists ===
+echo -e "\n[*] Cloning SecLists..."
+sudo git clone https://github.com/danielmiessler/SecLists.git /opt/SecLists || echo "[*] SecLists already installed"
+
+# === Setup gf Patterns ===
+echo -e "\n[*] Setting up gf patterns..."
 mkdir -p ~/.gf
-cp -r "$GOPATH/src/github.com/tomnomnom/gf/examples" ~/.gf 2>/dev/null || true
+git clone https://github.com/tomnomnom/gf.git ~/gf-source || true
+cp -r ~/gf-source/examples ~/.gf/
 git clone https://github.com/1ndianl33t/Gf-Patterns ~/.gf-patterns || true
-cp ~/.gf-patterns/*.json ~/.gf/ 2>/dev/null || true
+cp ~/.gf-patterns/*.json ~/.gf/ || true
 
-# === Clean & Final ===
-echo "[*] Updating Nuclei templates..."
-nuclei -update-templates
+# === Update Nuclei Templates ===
+echo -e "\n[*] Updating Nuclei templates..."
+nuclei -update-templates || true
 
-echo
-echo "✅ Setup completed!"
-echo "👉 Wordlists: /opt/SecLists"
-echo "👉 Tools installed in: $GOPATH/bin"
-echo "👉 Add to PATH: export PATH=\$PATH:\$GOPATH/bin"
-echo "💡 Run 'source ~/.bashrc' to reload environment."
+# === Aliases ===
+echo -e "\n[*] Adding useful aliases..."
+cat << 'EOF' >> ~/.bashrc
+
+# === Bug Bounty Aliases ===
+alias wf='waybackurls'
+alias gff='gf'
+alias sf='subfinder'
+alias af='assetfinder'
+alias nx='nuclei'
+alias htx='httpx'
+alias aj='arjun'
+alias gx='gf xss'
+alias gs='gf ssrf'
+alias gr='gf redirect'
+alias gl='gf lfi'
+alias gi='gf idor'
+EOF
+
+source ~/.bashrc
