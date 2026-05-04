@@ -1,0 +1,5 @@
+[
+  { "roleId": "ROLE_ID_1", "name": "Mafia Boss"    },
+  { "roleId": "ROLE_ID_2", "name": "Mafia Member"  },
+  { "roleId": "ROLE_ID_3", "name": "Underboss"     }
+]
