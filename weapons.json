@@ -1,0 +1,16 @@
+[
+  { "id": "combat_pistol",   "name": "Combat Pistol",     "price": 70000,  "max": 10, "category": "weapons" },
+  { "id": "combat_pdw",      "name": "Combat PDW",         "price": 120000, "max": 5,  "category": "weapons" },
+  { "id": "micro_smg",       "name": "Micro SMG",          "price": 110000, "max": 5,  "category": "weapons" },
+  { "id": "armor",           "name": "Armor (Body Vest)",  "price": 6000,   "max": 20, "category": "weapons" },
+  { "id": "smg_ammo",        "name": "SMG Ammo",           "price": 3500,   "max": 50, "category": "weapons" },
+  { "id": "pistol_ammo",     "name": "Pistol Ammo",        "price": 2000,   "max": 50, "category": "weapons" },
+  { "id": "thermite",        "name": "Thermite",           "price": 5000,   "max": 15, "category": "heist"   },
+  { "id": "trojan_usb",      "name": "Trojan USB",         "price": 4000,   "max": 10, "category": "heist"   },
+  { "id": "electronickit",   "name": "Electronic Kit",     "price": 15000,  "max": 10, "category": "heist"   },
+  { "id": "laptop_yellow",   "name": "Laptop Yellow",      "price": 10000,  "max": 5,  "category": "heist"   },
+  { "id": "laptop_red",      "name": "Laptop Red",         "price": 50000,  "max": 3,  "category": "heist"   },
+  { "id": "security_card",   "name": "Security Card",      "price": 20000,  "max": 5,  "category": "heist"   },
+  { "id": "drill",           "name": "Drill",              "price": 20000,  "max": 25, "category": "heist"   },
+  { "id": "security_card_b", "name": "Securite Card B",    "price": 60000,  "max": 3,  "category": "heist"   }
+]
