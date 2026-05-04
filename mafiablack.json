@@ -1,5 +1,8 @@
 [
-  { "roleId": "ROLE_ID_1", "name": "Mafia Boss"    },
-  { "roleId": "ROLE_ID_2", "name": "Mafia Member"  },
-  { "roleId": "ROLE_ID_3", "name": "Underboss"     }
+  { "roleId": "1406673008197632036", "name": "Bratva" },
+  { "roleId": "1406673006633291897", "name": "Cartel Del Madrazo" },
+  { "roleId": "1406673028498325545", "name": "Yakuza" },
+  { "roleId": "1406673021573529661", "name": "Shadow" },
+  { "roleId": "1492551584264093757", "name": "Peaky Blinders" },
+  { "roleId": "1486484022820601887", "name": "Cosa Nostra" }
 ]
