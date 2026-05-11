@@ -2,36 +2,36 @@
   {
     "id": "pistol_mk2",
     "name": "Pistol MK2",
-    "price": 6000,
-    "max": 150,
+    "price": 90000,
+    "max": 0,
     "category": "weapons"
   },
   {
-    "id": "WEAPON_SAWNOFFSHOTGUN",
+    "id": "WEAPON_SHOTGUN",
     "name": "Sawed-Off Shotgun",
-    "price": 6000,
-    "max": 150,
+    "price": 140000,
+    "max": 0,
     "category": "weapons"
   },
   {
-    "id": "at_suppressor_light",
+    "id": "suppressor_light",
     "name": "Light Pistol Suppressor",
-    "price": 6000,
-    "max": 150,
+    "price": 8000,
+    "max": 0,
     "category": "weapons"
   },
   {
-    "id": "at_clip_extended_pistol",
+    "id": "extended_pistol",
     "name": "Extended Pistol Magazine",
-    "price": 6000,
-    "max": 150,
+    "price": 12000,
+    "max": 0,
     "category": "weapons"
   },
   {
-    "id": "at_clip_extended_smg",
+    "id": "extended_smg",
     "name": "Extended SMG Magazine",
-    "price": 6000,
-    "max": 150,
+    "price": 16000,
+    "max": 0,
     "category": "weapons"
   },
   {
@@ -42,13 +42,6 @@
     "category": "weapons"
   },
   {
-    "id": "smg_ammo",
-    "name": "SMG Ammo",
-    "price": 3500,
-    "max": 3000,
-    "category": "weapons"
-  },
-  {
     "id": "pistol_ammo",
     "name": "Pistol Ammo",
     "price": 2000,
@@ -56,37 +49,59 @@
     "category": "weapons"
   },
   {
-    "id": "ammo_shotgun",
-    "name": "Shotgun Ammo",
-    "price": 2000,
-    "max": 4000,
+    "id": "smg_ammo",
+    "name": "SMG Ammo",
+    "price": 3500,
+    "max": 3000,
     "category": "weapons"
   },
   {
-    "id": "keycard_fleeca",
-    "name": "Fleeca Bank Keycard",
-    "price": 5000,
-    "max": 20,
-    "category": "heist"
+    "id": "ammo_shotgun",
+    "name": "Shotgun Ammo",
+    "price": 4200,
+    "max": 0,
+    "category": "weapons"
   },
+  {
+    "id": "ammo_rifle",
+    "name": "Rifle Ammo",
+    "price": 5000,
+    "max": 0,
+    "category": "weapons"
+  },
+
   {
     "id": "robbery_laptop",
     "name": "Laptop",
-    "price": 4000,
+    "price": 10000,
     "max": 20,
     "category": "heist"
   },
   {
     "id": "thermite",
-    "name": "Electronic Kit",
-    "price": 15000,
+    "name": "Thermite Charger",
+    "price": 25000,
+    "max": 20,
+    "category": "heist"
+  },
+  {
+    "id": "robbery_explosive",
+    "name": "Explosive",
+    "price": 7000,
+    "max": 20,
+    "category": "heist"
+  },
+  {
+    "id": "keycard_fleeca",
+    "name": "Fleeca Bank Keycard",
+    "price": 26000,
     "max": 20,
     "category": "heist"
   },
   {
     "id": "keycard_pacific",
     "name": "Pacific Bank Keycard",
-    "price": 10000,
+    "price": 70000,
     "max": 20,
     "category": "heist"
   },
@@ -100,13 +115,6 @@
   {
     "id": "keycard_bobcat",
     "name": "Security Card",
-    "price": 20000,
-    "max": 20,
-    "category": "heist"
-  },
-  {
-    "id": "robbery_explosive",
-    "name": "Explosive",
     "price": 20000,
     "max": 20,
     "category": "heist"
