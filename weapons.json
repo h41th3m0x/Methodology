@@ -1,16 +1,114 @@
 [
-  { "id": "combat_pistol",   "name": "Combat Pistol",     "price": 70000,  "max": 100, "category": "weapons" },
-  { "id": "combat_pdw",      "name": "Combat PDW",         "price": 120000, "max": 50,  "category": "weapons" },
-  { "id": "micro_smg",       "name": "Micro SMG",          "price": 110000, "max": 50,  "category": "weapons" },
-  { "id": "armor",           "name": "Armor (Body Vest)",  "price": 6000,   "max": 150, "category": "weapons" },
-  { "id": "smg_ammo",        "name": "SMG Ammo",           "price": 3500,   "max": 3000, "category": "weapons" },
-  { "id": "pistol_ammo",     "name": "Pistol Ammo",        "price": 2000,   "max": 4000, "category": "weapons" },
-  { "id": "thermite",        "name": "Thermite",           "price": 5000,   "max": 20, "category": "heist"   },
-  { "id": "trojan_usb",      "name": "Trojan USB",         "price": 4000,   "max": 20, "category": "heist"   },
-  { "id": "electronickit",   "name": "Electronic Kit",     "price": 15000,  "max": 20, "category": "heist"   },
-  { "id": "laptop_yellow",   "name": "Laptop Yellow",      "price": 10000,  "max": 20,  "category": "heist"   },
-  { "id": "laptop_red",      "name": "Laptop Red",         "price": 50000,  "max": 20,  "category": "heist"   },
-  { "id": "security_card",   "name": "Security Card",      "price": 20000,  "max": 20,  "category": "heist"   },
-  { "id": "drill",           "name": "Drill",              "price": 20000,  "max": 20, "category": "heist"   },
-  { "id": "security_card_b", "name": "Securite Card B",    "price": 60000,  "max": 5,  "category": "heist"   }
+  {
+    "id": "pistol_mk2",
+    "name": "Pistol MK2",
+    "price": 6000,
+    "max": 150,
+    "category": "weapons"
+  },
+  {
+    "id": "WEAPON_SAWNOFFSHOTGUN",
+    "name": "Sawed-Off Shotgun",
+    "price": 6000,
+    "max": 150,
+    "category": "weapons"
+  },
+  {
+    "id": "at_suppressor_light",
+    "name": "Light Pistol Suppressor",
+    "price": 6000,
+    "max": 150,
+    "category": "weapons"
+  },
+  {
+    "id": "at_clip_extended_pistol",
+    "name": "Extended Pistol Magazine",
+    "price": 6000,
+    "max": 150,
+    "category": "weapons"
+  },
+  {
+    "id": "at_clip_extended_smg",
+    "name": "Extended SMG Magazine",
+    "price": 6000,
+    "max": 150,
+    "category": "weapons"
+  },
+  {
+    "id": "armor",
+    "name": "Armor (Body Vest)",
+    "price": 6000,
+    "max": 150,
+    "category": "weapons"
+  },
+  {
+    "id": "smg_ammo",
+    "name": "SMG Ammo",
+    "price": 3500,
+    "max": 3000,
+    "category": "weapons"
+  },
+  {
+    "id": "pistol_ammo",
+    "name": "Pistol Ammo",
+    "price": 2000,
+    "max": 4000,
+    "category": "weapons"
+  },
+  {
+    "id": "ammo_shotgun",
+    "name": "Shotgun Ammo",
+    "price": 2000,
+    "max": 4000,
+    "category": "weapons"
+  },
+  {
+    "id": "keycard_fleeca",
+    "name": "Fleeca Bank Keycard",
+    "price": 5000,
+    "max": 20,
+    "category": "heist"
+  },
+  {
+    "id": "robbery_laptop",
+    "name": "Laptop",
+    "price": 4000,
+    "max": 20,
+    "category": "heist"
+  },
+  {
+    "id": "thermite",
+    "name": "Electronic Kit",
+    "price": 15000,
+    "max": 20,
+    "category": "heist"
+  },
+  {
+    "id": "keycard_pacific",
+    "name": "Pacific Bank Keycard",
+    "price": 10000,
+    "max": 20,
+    "category": "heist"
+  },
+  {
+    "id": "keycard_paleto",
+    "name": "Paleto Bank Keycard",
+    "price": 50000,
+    "max": 20,
+    "category": "heist"
+  },
+  {
+    "id": "keycard_bobcat",
+    "name": "Security Card",
+    "price": 20000,
+    "max": 20,
+    "category": "heist"
+  },
+  {
+    "id": "robbery_explosive",
+    "name": "Explosive",
+    "price": 20000,
+    "max": 20,
+    "category": "heist"
+  }
 ]
