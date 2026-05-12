@@ -73,14 +73,14 @@
   {
     "id": "robbery_laptop",
     "name": "Laptop",
-    "price": 10000,
+    "price": 7000,
     "max": 20,
     "category": "heist"
   },
   {
     "id": "thermite",
     "name": "Thermite Charger",
-    "price": 25000,
+    "price": 17000,
     "max": 20,
     "category": "heist"
   },
@@ -94,28 +94,28 @@
   {
     "id": "keycard_fleeca",
     "name": "Fleeca Bank Keycard",
-    "price": 26000,
+    "price": 18000,
     "max": 20,
     "category": "heist"
   },
   {
-    "id": "keycard_pacific",
-    "name": "Pacific Bank Keycard",
-    "price": 70000,
+    "id": "keycard_bobcat",
+    "name": "Bobcat Bank Keycard",
+    "price": 14000,
     "max": 20,
     "category": "heist"
   },
   {
     "id": "keycard_paleto",
     "name": "Paleto Bank Keycard",
-    "price": 50000,
+    "price": 35000,
     "max": 20,
     "category": "heist"
   },
   {
-    "id": "keycard_bobcat",
-    "name": "Security Card",
-    "price": 20000,
+    "id": "keycard_pacific",
+    "name": "Pacific Bank Keycard",
+    "price": 50000,
     "max": 20,
     "category": "heist"
   }
