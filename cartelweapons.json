@@ -95,27 +95,27 @@
     "name": "Coke Brick",
     "price": 50000,
     "max": 100,
-    "category": "heist"
+    "category": "drugs"
   },
   {
     "id": "meth_low_quality",
     "name": "Meth Low Quality",
     "price": 1200,
     "max": 100,
-    "category": "heist"
+    "category": "drugs"
   },
   {
     "id": "meth_medium_quality",
     "name": "Meth Medium Quality",
     "price": 1400,
     "max": 100,
-    "category": "heist"
+    "category": "drugs"
   },
   {
     "id": "meth_high_quality",
     "name": "Meth High Quality",
     "price": 1600,
     "max": 100,
-    "category": "heist"
+    "category": "drugs"
   }
 ]
