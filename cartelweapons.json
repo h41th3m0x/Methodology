@@ -1,1 +1,121 @@
-
+[
+  {
+    "id": "combat_pistol",
+    "name": "Combat Pistol",
+    "price": 80000,
+    "max": 15,
+    "category": "weapons"
+  },
+  {
+    "id": "combat_pdw",
+    "name": "Combat PDW",
+    "price": 140000,
+    "max": 10,
+    "category": "weapons"
+  },
+  {
+    "id": "micro_smg",
+    "name": "Micro SMG",
+    "price": 130000,
+    "max": 10,
+    "category": "weapons"
+  },
+  {
+    "id": "armor",
+    "name": "Armor (Body Vest)",
+    "price": 8000,
+    "max": 30,
+    "category": "weapons"
+  },
+  {
+    "id": "smg_ammo",
+    "name": "SMG Ammo",
+    "price": 4500,
+    "max": 150,
+    "category": "weapons"
+  },
+  {
+    "id": "pistol_ammo",
+    "name": "Pistol Ammo",
+    "price": 3000,
+    "max": 200,
+    "category": "weapons"
+  },
+  {
+    "id": "robbery_laptop",
+    "name": "Laptop",
+    "price": 11000,
+    "max": 20,
+    "category": "heist"
+  },
+  {
+    "id": "robbery_explosive",
+    "name": "Explosive",
+    "price": 11000,
+    "max": 10,
+    "category": "heist"
+  },
+  {
+    "id": "thermite",
+    "name": "Thermite Charge",
+    "price": 22000,
+    "max": 20,
+    "category": "heist"
+  },
+  {
+    "id": "keycard_fleeca",
+    "name": "Fleeca Bank Crack Device",
+    "price": 25000,
+    "max": 10,
+    "category": "heist"
+  },
+  {
+    "id": "keycard_bobcat",
+    "name": "Bobcat Bank Crack Device",
+    "price": 22000,
+    "max": 10,
+    "category": "heist"
+  },
+  {
+    "id": "keycard_paleto",
+    "name": "Paleto Bank Crack Device",
+    "price": 50000,
+    "max": 10,
+    "category": "heist"
+  },
+  {
+    "id": "keycard_pacific",
+    "name": "Pacific Bank Crack Device",
+    "price": 70000,
+    "max": 10,
+    "category": "heist"
+  },
+  {
+    "id": "coke_brick",
+    "name": "Coke Brick",
+    "price": 50000,
+    "max": 100,
+    "category": "drugs"
+  },
+  {
+    "id": "meth_low_quality",
+    "name": "Meth Low Quality",
+    "price": 1200,
+    "max": 100,
+    "category": "drugs"
+  },
+  {
+    "id": "meth_medium_quality",
+    "name": "Meth Medium Quality",
+    "price": 1400,
+    "max": 100,
+    "category": "drugs"
+  },
+  {
+    "id": "meth_high_quality",
+    "name": "Meth High Quality",
+    "price": 1600,
+    "max": 100,
+    "category": "drugs"
+  }
+]
