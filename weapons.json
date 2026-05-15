@@ -38,7 +38,7 @@
     "id": "armor",
     "name": "Armor (Body Vest)",
     "price": 6000,
-    "max": 150,
+    "max": 300,
     "category": "weapons"
   },
   {
@@ -73,7 +73,7 @@
     "id": "robbery_laptop",
     "name": "Laptop",
     "price": 7000,
-    "max": 20,
+    "max": 100,
     "category": "heist"
   },
   {
@@ -87,14 +87,14 @@
     "id": "thermite",
     "name": "Thermite Charger",
     "price": 17000,
-    "max": 20,
+    "max": 40,
     "category": "heist"
   },
   {
     "id": "keycard_fleeca",
     "name": "Fleeca Bank Keycard",
     "price": 18000,
-    "max": 20,
+    "max": 40,
     "category": "heist"
   },
   {
@@ -108,7 +108,7 @@
     "id": "keycard_paleto",
     "name": "Paleto Bank Keycard",
     "price": 35000,
-    "max": 20,
+    "max": 30,
     "category": "heist"
   },
   {
