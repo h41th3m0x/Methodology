@@ -2,21 +2,21 @@
   {
     "id": "combat_pistol",
     "name": "Combat Pistol",
-    "price": 80000,
+    "price": 100000,
     "max": 15,
     "category": "weapons"
   },
   {
     "id": "combat_pdw",
     "name": "Combat PDW",
-    "price": 140000,
+    "price": 160000,
     "max": 10,
     "category": "weapons"
   },
   {
     "id": "micro_smg",
     "name": "Micro SMG",
-    "price": 130000,
+    "price": 150000,
     "max": 10,
     "category": "weapons"
   },
