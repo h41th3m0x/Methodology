@@ -10,7 +10,7 @@
     "id": "combat_pdw",
     "name": "Combat PDW",
     "price": 160000,
-    "max": 8,
+    "max": 10,
     "category": "weapons"
   },
   {
@@ -24,7 +24,7 @@
     "id": "armor",
     "name": "Armor (Body Vest)",
     "price": 8000,
-    "max": 30,
+    "max": 50,
     "category": "weapons"
   },
   {
