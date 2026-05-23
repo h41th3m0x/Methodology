@@ -3,7 +3,7 @@
     "id": "combat_pistol",
     "name": "Combat Pistol",
     "price": 100000,
-    "max": 10,
+    "max": 20,
     "category": "weapons"
   },
   {
@@ -31,14 +31,14 @@
     "id": "smg_ammo",
     "name": "SMG Ammo",
     "price": 4500,
-    "max": 150,
+    "max": 300,
     "category": "weapons"
   },
   {
     "id": "pistol_ammo",
     "name": "Pistol Ammo",
     "price": 3000,
-    "max": 200,
+    "max": 400,
     "category": "weapons"
   },
   {
@@ -101,21 +101,21 @@
     "id": "meth_low_quality",
     "name": "Meth Low Quality",
     "price": 1200,
-    "max": 0,
+    "max": 500,
     "category": "drugs"
   },
   {
     "id": "meth_medium_quality",
     "name": "Meth Medium Quality",
     "price": 1400,
-    "max": 0,
+    "max": 500,
     "category": "drugs"
   },
   {
     "id": "meth_high_quality",
     "name": "Meth High Quality",
     "price": 1600,
-    "max": 0,
+    "max": 500,
     "category": "drugs"
   }
 ]
