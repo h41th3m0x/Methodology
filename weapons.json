@@ -16,7 +16,7 @@
   {
     "id": "WEAPON_SHOTGUN",
     "name": "Sawed-Off Shotgun",
-    "price": 140000,
+    "price": 200000,
     "max": 10,
     "category": "weapons"
   },
