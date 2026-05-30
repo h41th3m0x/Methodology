@@ -3,42 +3,42 @@
     "id": "pistol_mk2",
     "name": "Pistol MK2",
     "price": 90000,
-    "max": 20,
+    "max": 0,
     "category": "weapons"
   },
   {
     "id": "glock_18c",
     "name": "Pistol Glock 18C",
     "price": 180000,
-    "max": 20,
+    "max": 0,
     "category": "weapons"
   },
   {
     "id": "WEAPON_SHOTGUN",
     "name": "Sawed-Off Shotgun",
     "price": 200000,
-    "max": 10,
+    "max": 0,
     "category": "weapons"
   },
   {
     "id": "suppressor_light",
     "name": "Light Pistol Suppressor",
     "price": 8000,
-    "max": 40,
+    "max": 0,
     "category": "weapons"
   },
   {
     "id": "extended_pistol",
     "name": "Extended Pistol Magazine",
     "price": 12000,
-    "max": 40,
+    "max": 0,
     "category": "weapons"
   },
   {
     "id": "extended_smg",
     "name": "Extended SMG Magazine",
     "price": 16000,
-    "max": 40,
+    "max": 0,
     "category": "weapons"
   },
   {
