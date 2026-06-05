@@ -7,6 +7,27 @@
     "category": "weapons"
   },
   {
+    "id": "combat_pistol_mk2",
+    "name": "Pistol MK2",
+    "price": 130000,
+    "max": 10,
+    "category": "weapons"
+  },
+  {
+    "id": "glock_18_c",
+    "name": "Combat Pistol",
+    "price": 160000,
+    "max": 10,
+    "category": "weapons"
+  },
+  {
+    "id": "shotgun_shownoff",
+    "name": "Sawed-Off Shotgun",
+    "price": 240000,
+    "max": 3,
+    "category": "weapons"
+  },
+  {
     "id": "combat_pdw",
     "name": "Combat PDW",
     "price": 160000,
@@ -39,6 +60,27 @@
     "name": "Pistol Ammo",
     "price": 3000,
     "max": 300,
+    "category": "weapons"
+  },
+    {
+    "id": "pistol_suppressor",
+    "name": "Light Pistol Suppressor",
+    "price": 12000,
+    "max": 10,
+    "category": "weapons"
+  },
+  {
+    "id": "pistol_extand",
+    "name": "Extended Pistol",
+    "price": 18000,
+    "max": 10,
+    "category": "weapons"
+  },
+  {
+    "id": "smg_extand",
+    "name": "Extended SMG Magazine",
+    "price": 24000,
+    "max": 10,
     "category": "weapons"
   },
   {
