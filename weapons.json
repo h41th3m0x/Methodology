@@ -36,7 +36,21 @@
   },
   {
     "id": "extended_smg",
-    "name": "Extended SMG Magazine",
+    "name": "PDW Extended Magazine",
+    "price": 16000,
+    "max": 40,
+    "category": "weapons"
+  },
+  {
+    "id": "micro_extended_smg",
+    "name": "Micro Extended Magazine",
+    "price": 16000,
+    "max": 40,
+    "category": "weapons"
+  },
+  {
+    "id": "micro_suppressor_smg",
+    "name": "Micro Suppressor",
     "price": 16000,
     "max": 40,
     "category": "weapons"
