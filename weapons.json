@@ -87,7 +87,7 @@
     "id": "ammo_rifle",
     "name": "Rifle Ammo",
     "price": 5000,
-    "max": 0,
+    "max": 1000,
     "category": "weapons"
   },
   {
