@@ -133,20 +133,6 @@
     "category": "heist"
   },
   {
-    "id": "keycard_lab_01",
-    "name": "Human Labs Keycard 01",
-    "price": 50000,
-    "max": 20,
-    "category": "heist"
-  },
-  {
-    "id": "keycard_lab_02",
-    "name": "Human Labs Keycard 02",
-    "price": 50000,
-    "max": 20,
-    "category": "heist"
-  },
-  {
     "id": "keycard_pacific",
     "name": "Pacific Bank Keycard",
     "price": 75000,
